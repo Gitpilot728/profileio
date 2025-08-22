@@ -1,0 +1,153 @@
+/* Additional Styles for New Sections */
+
+/* Resume Section */
+.resume-download {
+  margin-bottom: 40px;
+}
+
+.resume-section {
+  background: var(--white);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.resume-section h4 {
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.resume-section i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h5 {
+  color: var(--text-dark);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.company {
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.cert-item p {
+  margin-bottom: 10px;
+  color: var(--text-light);
+}
+
+/* Testimonials Section */
+.testimonial-card {
+  background: var(--white);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-content {
+  margin-bottom: 20px;
+}
+
+.testimonial-content p {
+  font-style: italic;
+  color: var(--text-light);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.testimonial-author h5 {
+  color: var(--text-dark);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.testimonial-author p {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
+
+/* Blog Section */
+.blog-card {
+  background: var(--white);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.blog-image {
+  overflow: hidden;
+}
+
+.blog-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-image img {
+  transform: scale(1.05);
+}
+
+.blog-content {
+  padding: 25px;
+}
+
+.blog-content h4 {
+  color: var(--text-dark);
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.blog-date {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.blog-content p {
+  color: var(--text-light);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .resume-section {
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card {
+    margin-bottom: 30px;
+  }
+  
+  .blog-card {
+    margin-bottom: 30px;
+  }
+}
